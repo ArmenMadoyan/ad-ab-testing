@@ -20,3 +20,20 @@ pip install -r requirements.txt
 
 # Run the experiment
 python Bandit.py
+
+## 🚀 Project Structure
+
+ad-ab-testing/
+├── Bandit.py              # Main script with algorithm implementations and visualizations
+├── data/
+│   └── rewards.csv        # Stores (Bandit, Reward, Algorithm) results from experiments
+├── img/
+│   ├── rewards_linear.png
+│   ├── rewards_log.png
+│   ├── cumulative_rewards.png
+│   ├── cumulative_regret.png
+│   └── bandit_dist_*.png  # Posterior distribution snapshots at various stages
+├── report/
+│   └── bandit_report.tex  # LaTeX report template with results and figures
+├── requirements.txt       # Python dependencies
+└── README.md              # You are here 📌
