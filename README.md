@@ -21,7 +21,7 @@ pip install -r requirements.txt
 # Run the experiment
 python Bandit.py
 
-## 🚀 Project Structure
+## Project Structure
 
 ad-ab-testing/
 ├── Bandit.py              # Main script with algorithm implementations and visualizations
